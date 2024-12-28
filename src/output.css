@@ -558,6 +558,10 @@ video {
   position: relative;
 }
 
+.z-\[\] {
+  z-index: ;
+}
+
 .z-\[-1\] {
   z-index: -1;
 }
@@ -570,16 +574,36 @@ video {
   margin: auto;
 }
 
-.ml-\[150px\] {
-  margin-left: 150px;
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[400px\] {
+  margin-top: 400px;
 }
 
 .mt-\[-400px\] {
   margin-top: -400px;
 }
 
-.mt-\[\] {
-  margin-top: ;
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[300px\] {
+  margin-left: 300px;
+}
+
+.ml-\[200px\] {
+  margin-left: 200px;
+}
+
+.ml-\[150px\] {
+  margin-left: 150px;
 }
 
 .mt-\[300px\] {
@@ -598,20 +622,44 @@ video {
   display: flex;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
+.h-\[\] {
+  height: ;
 }
 
-.w-\[400px\] {
-  width: 400px;
+.h-\[100vh\] {
+  height: 100vh;
 }
 
 .w-\[\] {
   width: ;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[230px\] {
+  width: 230px;
+}
+
+.w-\[240px\] {
+  width: 240px;
+}
+
 .w-\[300px\] {
   width: 300px;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .max-w-\[1200px\] {
@@ -640,6 +688,10 @@ video {
   flex-direction: column;
 }
 
+.place-content-start {
+  place-content: start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -652,12 +704,12 @@ video {
   gap: 10px;
 }
 
-.gap-\[20px\] {
-  gap: 20px;
-}
-
 .gap-\[40px\] {
   gap: 40px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
 }
 
 .gap-\[\] {
@@ -672,16 +724,8 @@ video {
   border-width: 1px;
 }
 
-.border-s {
-  border-inline-start-width: 1px;
-}
-
 .border-solid {
   border-style: solid;
-}
-
-.border-\[\] {
-  border-color: ;
 }
 
 .border-\[black\] {
@@ -713,6 +757,30 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/src\'\)\] {
+  background-image: url('/src');
+}
+
+.bg-\[url\(\'\/src\/\'\)\] {
+  background-image: url('/src/');
+}
+
 .bg-\[url\(\'\/src\/rr\.png\'\)\] {
   background-image: url('/src/rr.png');
 }
@@ -741,12 +809,12 @@ video {
   font-size: 20px;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
-}
-
 .text-\[30px\] {
   font-size: 30px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .text-\[40px\] {
@@ -765,6 +833,11 @@ video {
 .text-orange-300 {
   --tw-text-opacity: 1;
   color: rgb(253 186 116 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .placeholder-lime-50::-moz-placeholder {
