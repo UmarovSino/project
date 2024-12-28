@@ -554,8 +554,40 @@ video {
   display: none;
 }
 
+.relative {
+  position: relative;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.z-\[1\] {
+  z-index: 1;
+}
+
 .m-auto {
   margin: auto;
+}
+
+.mt-\[400px\] {
+  margin-top: 400px;
+}
+
+.mt-\[-400px\] {
+  margin-top: -400px;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[300px\] {
+  margin-left: 300px;
+}
+
+.ml-\[150px\] {
+  margin-left: 150px;
 }
 
 .flex {
@@ -574,6 +606,10 @@ video {
   height: -200px;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .w-\[100px\] {
   width: 100px;
 }
@@ -582,8 +618,42 @@ video {
   width: 20px;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[240px\] {
+  width: 240px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.border-separate {
+  border-collapse: separate;
+}
+
+.border-spacing-2 {
+  --tw-border-spacing-x: 0.5rem;
+  --tw-border-spacing-y: 0.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -630,6 +700,29 @@ video {
   place-self: center;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-slate-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(3 7 18 / var(--tw-border-opacity, 1));
+}
+
+.border-l-zinc-950 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(9 9 11 / var(--tw-border-opacity, 1));
+}
+
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
@@ -638,6 +731,30 @@ video {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/src\/\'\)\] {
+  background-image: url('/src/');
+}
+
+.bg-\[url\(\'\/src\/rr\.png\'\)\] {
+  background-image: url('/src/rr.png');
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-\[\] {
@@ -666,6 +783,10 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .font-bold {
