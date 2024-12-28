@@ -582,8 +582,16 @@ video {
   margin-top: 100px;
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
 .mt-\[200px\] {
   margin-top: 200px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
 }
 
 .mt-\[300px\] {
@@ -594,14 +602,6 @@ video {
   margin-top: 30px;
 }
 
-.mt-\[20px\] {
-  margin-top: 20px;
-}
-
-.mt-\[10px\] {
-  margin-top: 10px;
-}
-
 .mt-\[40px\] {
   margin-top: 40px;
 }
@@ -610,8 +610,16 @@ video {
   margin-top: ;
 }
 
+.mt-\[1\] {
+  margin-top: 1;
+}
+
 .mt-\[15px\] {
   margin-top: 15px;
+}
+
+.ml-\[\] {
+  margin-left: ;
 }
 
 .ml-\[40px\] {
@@ -620,6 +628,10 @@ video {
 
 .ml-\[100px\] {
   margin-left: 100px;
+}
+
+.mt-\[70px\] {
+  margin-top: 70px;
 }
 
 .flex {
@@ -638,16 +650,16 @@ video {
   height: 30px;
 }
 
+.w-\[220px\] {
+  width: 220px;
+}
+
 .w-\[300px\] {
   width: 300px;
 }
 
 .w-\[400px\] {
   width: 400px;
-}
-
-.w-\[200px\] {
-  width: 200px;
 }
 
 .w-\[500px\] {
@@ -660,18 +672,6 @@ video {
 
 .w-\[350px\] {
   width: 350px;
-}
-
-.w-\[250px\] {
-  width: 250px;
-}
-
-.w-\[210px\] {
-  width: 210px;
-}
-
-.w-\[220px\] {
-  width: 220px;
 }
 
 .w-\[410px\] {
@@ -692,6 +692,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 .items-center {
@@ -718,16 +722,16 @@ video {
   gap: 40px;
 }
 
-.gap-\[\] {
-  gap: ;
+.gap-\[60px\] {
+  gap: 60px;
 }
 
 .gap-\[30px\] {
   gap: 30px;
 }
 
-.gap-\[60px\] {
-  gap: 60px;
+.gap-\[50px\] {
+  gap: 50px;
 }
 
 .place-self-center {
@@ -754,16 +758,6 @@ video {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
-}
-
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
 }
 
 .bg-slate-500 {
@@ -854,16 +848,16 @@ video {
   font-size: 20px;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .text-\[40px\] {
   font-size: 40px;
 }
 
 .text-\[50px\] {
   font-size: 50px;
-}
-
-.text-\[30px\] {
-  font-size: 30px;
 }
 
 .font-bold {
